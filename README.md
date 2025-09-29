@@ -13,11 +13,23 @@ Features Implemented :
 - Added Seeder for test data.
  
 Requirements to Run :
-- Composer dependencies: composer install
-- NPM dependencies : npm install && npm run dev
-- Laravel UI package for authentication scaffolding and Blade templates :
-  composer require laravel/ui
-  php artisan ui bootstrap --auth
-  npm install && npm run dev
+#  Install Composer dependencies
+composer install
+
+#  Install NPM dependencies
+npm install && npm run dev
+
+#  Install Laravel UI package
+composer require laravel/ui
+
+#  Generate UI scaffolding (Bootstrap + Auth)
+php artisan ui bootstrap --auth
+
+#  Rebuild frontend assets
+npm install && npm run dev
+
+#  Run migrations and seeders
+php artisan migrate --seed
+
 
   
