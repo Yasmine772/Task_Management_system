@@ -8,7 +8,8 @@ Features Implemented :
 - Reusable partial form for create/edit to avoid duplication.
 - Used Eloquent ORM instead of raw queries.
 - Pagination to display tasks.
-- Search to filter tasks by title,Added due_date field with highlighting for overdue tasks.
+- Search to filter tasks by title
+- Added due_date field with highlighting for overdue tasks.
 - Implemented logging as a background action when task status is changed.
 - Added Seeder for test data.
  
